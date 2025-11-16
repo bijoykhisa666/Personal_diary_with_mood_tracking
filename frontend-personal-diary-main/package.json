@@ -1,0 +1,53 @@
+{
+  "name": "pdf-jumjournal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.932.0",
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/next-js": "^2.2.0",
+    "@chakra-ui/react": "^2.8.2",
+    "@cyntler/react-doc-viewer": "^1.14.1",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@looop/quill-image-resize-module-react": "^3.1.5",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@types/js-cookie": "^3.0.6",
+    "browser-image-compression": "^2.0.2",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^10.18.0",
+    "js-cookie": "^3.0.5",
+    "next": "14.0.4",
+    "next-auth": "^5.0.0-beta.29",
+    "next-transpile-modules": "^10.0.1",
+    "nextjs-toploader": "^3.8.16",
+    "npm": "^10.3.0",
+    "quill-image-resize-module-react": "^3.0.0",
+    "quill-image-uploader": "^1.3.0",
+    "react": "^18",
+    "react-calendar": "^6.0.0",
+    "react-dom": "^18",
+    "react-icons": "^5.0.1",
+    "react-quill": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-pdf": "^7.0.0",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
