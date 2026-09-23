@@ -1,9 +1,9 @@
 # Personal Diary with Mood Tracking
 
-In today's fast-paced world, mental well-being has become increasingly important. Many people experience stress, anxiety, and emotional challenges but often lack a simple way to reflect on their feelings. The project report was developed to support emotional self-awareness by allowing users to record their daily experiences and manually track their moods. By reviewing past entries and mood patterns, users can better understand their emotions, recognize trends, and build healthier self-reflection habits. While the application is not a substitute for professional mental health care, it serves as a practical tool for promoting mindfulness and personal well-being.
+In today's fast-paced world, mental well-being has become increasingly important. Many people experience stress, anxiety, and emotional challenges but often lack a simple way to reflect on their feelings. The project was developed to support emotional self-awareness by allowing users to record their daily experiences and manually track their moods. By reviewing past entries and mood patterns, users can better understand their emotions, recognize trends, and build healthier self-reflection habits. While the application is not a substitute for professional mental health care, it serves as a practical tool for promoting mindfulness and personal well-being.
 
-## Technical info 
-This project report presents a Web-based Personal Diary with Mood Tracking, a human-centered digital platform created to support mental well-being through intentional self-reflection. By moving away from complex AI-driven predictions, this system empowers users to take full control of their emotional data through manual logging and secure privacy measures.
+## Technical Stack
+This project presents a Web-based Personal Diary with Mood Tracking, a human-centered digital platform designed to support mental well-being through intentional self-reflection. By moving away from complex AI-driven predictions, this system empowers users to take full control of their emotional data through manual logging and secure privacy measures.
 
 ## Project Overview
 Personal Diary with Mood Tracking gives users a dedicated space to document everyday moments and record how they feel. Reviewing entries and mood history can help users notice recurring patterns and make self-reflection part of their routine.
@@ -42,9 +42,9 @@ The feasibility assessment considered the technical requirements and project cos
 
 ## Future Improvements
 
-- Provide optional machine-learning-based sentiment insights.
-- Add offline access for selected features.
-- Support voice input for creating diary entries.
+- Add machine learning for deeper sentiment analysis
+- Support offline access
+- Add voice input for journaling
 
 ## Privacy and Well-being
 
@@ -54,48 +54,3 @@ Diary entries and mood records can contain sensitive personal information. The a
 
 This application is for journaling, mindfulness, and personal reflection only. It does not diagnose, treat, or prevent any medical or mental health condition, and it is not a substitute for professional care.
 
-   # Personal Diary with Mood Tracking
-
-## Introduction
-
-In today's fast-paced world, mental well-being has become increasingly important. Many people experience stress, anxiety, and emotional challenges but may not have a simple way to reflect on their feelings.
-
-This project supports emotional self-awareness by allowing users to record their daily experiences and manually track their moods. By reviewing past entries and mood patterns, users can better understand their emotions, recognize trends, and build healthier self-reflection habits.
-
-This application is not a substitute for professional mental health care. It is a practical tool for mindfulness and personal well-being.
-
-## Project Overview
-
-Personal Diary with Mood Tracking is a web-based platform designed to support mental well-being through self-reflection. It gives users control over their emotional data through manual mood logging and privacy-focused features.
-
-The application provides a private space to record daily experiences and review emotional trends over time. It combines traditional journaling with digital tools to help users recognize their own patterns.
-
-## Core Features
-
-- **Journaling and Media Support:** Create, edit, and manage diary entries. Attach photos stored in Amazon S3.
-- **Manual Mood Tracking:** Record a mood, set its intensity from 1 to 10, and add tags such as work, family, or health.
-- **Visual Insights:** View charts, timelines, and calendar views to explore mood patterns.
-- **Privacy and Security:** User accounts are protected with JWT authentication, Google OAuth, and encrypted passwords.
-
-## Technical Stack
-
-- **Frontend:** Next.js 15 and Chakra UI
-- **Backend:** Node.js and Express.js
-- **Database:** MongoDB
-- **Cloud Storage:** Amazon S3 for media storage
-
-## Methodology and Feasibility
-
-The project followed the Waterfall Model, progressing through requirement analysis, design, development, and deployment.
-
-The feasibility study found the system technically feasible and cost-effective, using open-source tools and free-tier hosting services.
-
-## Future Work
-
-- Add machine learning for deeper sentiment analysis
-- Support offline access
-- Add voice input for journaling
-
-## Disclaimer
-
-This application is intended to support personal reflection and mindfulness. It does not provide medical advice, diagnosis, or treatment, and is not a substitute for professional mental health care.
