@@ -8,13 +8,6 @@
 [![Express.js](https://img.shields.io/badge/Express.js-REST%20API-000000?logo=express)](https://expressjs.com/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-NoSQL-47A248?logo=mongodb)](https://www.mongodb.com/)
 
-## 🌱 About the Project
-
-**Personal Diary with Mood Tracking** is a full-stack web application developed to give users a simple and organised space for recording their daily thoughts, experiences, and moods.
-
-Users can create diary entries, assign a mood and mood intensity, add tags, search and filter previous entries, and review their mood patterns through visualisations.
-
-The project focuses on **manual mood tracking**. Users choose and record their own mood instead of relying on automatic machine-learning predictions.
 
 ## ✨ Key Features
 
@@ -156,15 +149,7 @@ npm start
 
 > Make sure your environment variables, MongoDB connection, and Amazon S3 configuration are set according to the project's backend configuration.
 
-## 👨‍💻 Developer
 
-### Bijoy Khisa (Bablu)
-
-**B.Sc. in Computer Science & Engineering**
-
-Interested in **Software Development, Artificial Intelligence, Machine Learning, Deep Learning, and Data Analytics**.
-
-📍 Bangladesh
 
 ## 📌 Academic Project
 
