@@ -1,6 +1,6 @@
 # 📔 Personal Diary with Mood Tracking
 
-> A full-stack web application for maintaining a personal diary and manually tracking daily moods, helping users reflect on their experiences and understand their emotional patterns.
+> Personal Diary with Mood Tracking is a full-stack web application designed to help users record their daily experiences and manually track their moods. Users can create diary entries, select their mood and intensity, add tags, and review their previous entries and mood patterns. The application aims to encourage self-reflection, emotional awareness, and mindful journaling through a simple and organised digital diary.
 
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-18%2B-61DAFB?logo=react)](https://react.dev/)
