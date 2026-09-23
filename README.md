@@ -23,7 +23,7 @@
 - 👤 User-specific diary data
 - 📱 Responsive user interface
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 ### Frontend
 - **Next.js 15**
