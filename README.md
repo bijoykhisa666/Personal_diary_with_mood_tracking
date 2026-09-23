@@ -2,9 +2,6 @@
 
 In today's fast-paced world, mental well-being has become increasingly important. Many people experience stress, anxiety, and emotional challenges but often lack a simple way to reflect on their feelings. The project was developed to support emotional self-awareness by allowing users to record their daily experiences and manually track their moods. By reviewing past entries and mood patterns, users can better understand their emotions, recognize trends, and build healthier self-reflection habits. While the application is not a substitute for professional mental health care, it serves as a practical tool for promoting mindfulness and personal well-being.
 
-## Technical Stack
-This project presents a Web-based Personal Diary with Mood Tracking, a human-centered digital platform designed to support mental well-being through intentional self-reflection. By moving away from complex AI-driven predictions, this system empowers users to take full control of their emotional data through manual logging and secure privacy measures.
-
 ## Project Overview
 Personal Diary with Mood Tracking gives users a dedicated space to document everyday moments and record how they feel. Reviewing entries and mood history can help users notice recurring patterns and make self-reflection part of their routine.
 The application is designed for personal reflection and mindfulness. It does not provide medical advice or replace professional mental health care.
