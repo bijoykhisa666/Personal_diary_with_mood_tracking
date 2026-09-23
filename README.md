@@ -1,30 +1,18 @@
-<div align="center">
-
 # Personal Diary with Mood Tracking
 
-A web-based diary for recording daily experiences and tracking moods over time.
+In today's fast-paced world, mental well-being has become increasingly important. Many people experience stress, anxiety, and emotional challenges but often lack a simple way to reflect on their feelings. The project was developed to support emotional self-awareness by allowing users to record their daily experiences and manually track their moods. By reviewing past entries and mood patterns, users can better understand their emotions, recognize trends, and build healthier self-reflection habits. While the application is not a substitute for professional mental health care, it serves as a practical tool for promoting mindfulness and personal well-being.
 
-![Project image](YOUR-IMAGE-PATH)
-
-![Status](https://img.shields.io/badge/status-in%20development-yellow)
-![License](https://img.shields.io/badge/license-add%20license-lightgrey)
-
-</div>
-
-## About the Project
-
-Personal Diary with Mood Tracking helps users keep a personal journal and record how they feel each day. Users can revisit their entries and mood history to reflect on their experiences and notice patterns over time.
-
-The app is intended for personal reflection and mindfulness. It is not a substitute for professional mental health care.
-
+## Project Overview
+Personal Diary with Mood Tracking gives users a dedicated space to document everyday moments and record how they feel. Reviewing entries and mood history can help users notice recurring patterns and make self-reflection part of their routine.
+The application is designed for personal reflection and mindfulness. It does not provide medical advice or replace professional mental health care.
 ## Features
 
-- Create, edit, and review diary entries
-- Record a mood and rate its intensity from 1 to 10
-- Add tags such as work, family, or health
-- Attach photos to entries
-- Review mood history using charts, timelines, and calendar views
-- Sign in using JWT authentication or Google OAuth
+- **Diary entries:** Create, edit, and review personal journal entries.
+- **Photo attachments:** Add photos to entries, with media stored using Amazon S3.
+- **Manual mood logging:** Record a mood and rate its intensity on a scale from 1 to 10.
+- **Mood tags:** Organize mood records with labels such as work, family, or health.
+- **Mood history and insights:** Explore recorded activity through charts, timelines, and calendar views.
+- **Account security:** Support for JWT-based authentication and Google OAuth, with password encryption.
 
 ## Technology Stack
 
@@ -38,25 +26,29 @@ The app is intended for personal reflection and mindfulness. It is not a substit
 
 ## How It Works
 
-1. Write a diary entry about your day.
-2. Record your mood and its intensity.
-3. Add relevant tags or a photo if needed.
-4. Review past entries and mood history.
+1. Users write a diary entry about their day.
+2. They record a mood and choose an intensity rating.
+3. Optional tags and photos can add context to an entry.
+4. Users revisit their diary and mood history to reflect on changes over time.
 
 ## Development Methodology
 
-The project follows the Waterfall methodology, with work organized into requirements analysis, design, implementation, and deployment.
+The project was planned using the Waterfall methodology, with work organized into stages: requirements analysis, design, implementation, and deployment.
+
+The feasibility assessment considered the technical requirements and project costs, including the use of open-source technologies and free-tier hosting options.
 
 ## Future Improvements
 
-- Add optional sentiment analysis
+- Add machine learning for deeper sentiment analysis
 - Support offline access
-- Add voice input for diary entries
+- Add voice input for journaling
+
+## Privacy and Well-being
+
+Diary entries and mood records can contain sensitive personal information. The application is intended to help users reflect on their own experiences. Users should seek qualified professional support for mental health concerns.
 
 ## Disclaimer
 
-This application is for journaling and personal reflection. It does not diagnose, treat, or prevent medical or mental health conditions. Seek professional support for mental health concerns.
+This application is for journaling, mindfulness, and personal reflection only. It does not diagnose, treat, or prevent any medical or mental health condition, and it is not a substitute for professional care.
 
-## Author
 
-**Bijoy Khisa**
