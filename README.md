@@ -69,7 +69,18 @@ The application follows a client-server architecture:
 │  Diary Data  │  │ Media/Photos │
 └──────────────┘  └──────────────┘
 ```
+##  Development Methodology
 
+The project was developed using the **Waterfall Model**, following a structured and sequential development process.
+
+### Waterfall Phases
+
+1. **Requirements Analysis** – Identifying project requirements and user needs.
+2. **System Design** – Designing the system architecture, database structure, and user interface.
+3. **Implementation** – Developing the frontend, backend, database, and supporting features.
+4. **Testing** – Testing the application functionality and fixing identified issues.
+5. **Deployment** – Preparing and deploying the application for use.
+6. **Maintenance** – Supporting future improvements, updates, and enhancements.
 ##  Project Structure
 
 ```text
