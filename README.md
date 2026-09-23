@@ -1,54 +1,177 @@
-# Personal Diary with Mood Tracking
+# 📔 Personal Diary with Mood Tracking
 
-In today's fast-paced world, mental well-being has become increasingly important. Many people experience stress, anxiety, and emotional challenges but often lack a simple way to reflect on their feelings. The project was developed to support emotional self-awareness by allowing users to record their daily experiences and manually track their moods. By reviewing past entries and mood patterns, users can better understand their emotions, recognize trends, and build healthier self-reflection habits. While the application is not a substitute for professional mental health care, it serves as a practical tool for promoting mindfulness and personal well-being.
+> A full-stack web application for maintaining a personal diary and manually tracking daily moods, helping users reflect on their experiences and understand their emotional patterns.
 
-## Project Overview
-Personal Diary with Mood Tracking gives users a dedicated space to document everyday moments and record how they feel. Reviewing entries and mood history can help users notice recurring patterns and make self-reflection part of their routine.
-The application is designed for personal reflection and mindfulness. It does not provide medical advice or replace professional mental health care.
-## Features
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-18%2B-61DAFB?logo=react)](https://react.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?logo=node.js)](https://nodejs.org/)
+[![Express.js](https://img.shields.io/badge/Express.js-REST%20API-000000?logo=express)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-NoSQL-47A248?logo=mongodb)](https://www.mongodb.com/)
 
-- **Diary entries:** Create, edit, and review personal journal entries.
-- **Photo attachments:** Add photos to entries, with media stored using Amazon S3.
-- **Manual mood logging:** Record a mood and rate its intensity on a scale from 1 to 10.
-- **Mood tags:** Organize mood records with labels such as work, family, or health.
-- **Mood history and insights:** Explore recorded activity through charts, timelines, and calendar views.
-- **Account security:** Support for JWT-based authentication and Google OAuth, with password encryption.
+## 🌱 About the Project
 
-## Technology Stack
+**Personal Diary with Mood Tracking** is a full-stack web application developed to give users a simple and organised space for recording their daily thoughts, experiences, and moods.
 
-| Area | Technology |
-|---|---|
-| Frontend | Next.js 15, Chakra UI |
-| Backend | Node.js, Express.js |
-| Database | MongoDB |
-| Media storage | Amazon S3 |
-| Authentication | JWT, Google OAuth |
+Users can create diary entries, assign a mood and mood intensity, add tags, search and filter previous entries, and review their mood patterns through visualisations.
 
-## How It Works
+The project focuses on **manual mood tracking**. Users choose and record their own mood instead of relying on automatic machine-learning predictions.
 
-1. Users write a diary entry about their day.
-2. They record a mood and choose an intensity rating.
-3. Optional tags and photos can add context to an entry.
-4. Users revisit their diary and mood history to reflect on changes over time.
+## ✨ Key Features
 
-## Development Methodology
+- 🔐 User registration and authentication
+- 📝 Create, view, update, and delete diary entries
+- 😊 Manual mood tracking
+- 📊 Mood intensity scale from **1–10**
+- 🏷️ Tags for organising diary entries
+- 📅 Date and calendar-based diary management
+- 🔎 Search and filter functionality
+- 📈 Mood charts and visualisations
+- 🖼️ Media/photo upload support
+- 👤 User-specific diary data
+- 📱 Responsive user interface
 
-The project was planned using the Waterfall methodology, with work organized into stages: requirements analysis, design, implementation, and deployment.
+## 🛠️ Technology Stack
 
-The feasibility assessment considered the technical requirements and project costs, including the use of open-source technologies and free-tier hosting options.
+### Frontend
+- **Next.js 15**
+- **React**
+- **Chakra UI**
+- **Chart.js**
+- JavaScript / TypeScript
 
-## Future Improvements
+### Backend
+- **Node.js**
+- **Express.js**
+- RESTful APIs
 
-- Add machine learning for deeper sentiment analysis
-- Support offline access
-- Add voice input for journaling
+### Database & Storage
+- **MongoDB**
+- **Amazon S3** for media/photo storage
 
-## Privacy and Well-being
+### Deployment & Tools
+- **Git & GitHub**
+- **Vercel**
+- **Render**
 
-Diary entries and mood records can contain sensitive personal information. The application is intended to help users reflect on their own experiences. Users should seek qualified professional support for mental health concerns.
+## 🏗️ Architecture
 
-## Disclaimer
+The application follows a client-server architecture:
 
-This application is for journaling, mindfulness, and personal reflection only. It does not diagnose, treat, or prevent any medical or mental health condition, and it is not a substitute for professional care.
+```text
+┌──────────────────────────────┐
+│          Frontend            │
+│       Next.js + React        │
+└──────────────┬───────────────┘
+               │
+               │ REST API
+               ▼
+┌──────────────────────────────┐
+│           Backend            │
+│      Node.js + Express       │
+└───────┬───────────────┬──────┘
+        │               │
+        ▼               ▼
+┌──────────────┐  ┌──────────────┐
+│   MongoDB    │  │  Amazon S3   │
+│  Diary Data  │  │ Media/Photos │
+└──────────────┘  └──────────────┘
+```
+
+## 📂 Project Structure
+
+```text
+Personal_diary_with_mood_tracking/
+│
+├── frontend-personal-diary-main/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── ...
+│
+├── personal-diary-main/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── utils/
+│   ├── db.js
+│   ├── index.js
+│   └── package.json
+│
+└── README.md
+```
+
+## 🎯 Project Objectives
+
+The project was developed with the following objectives:
+
+- Provide users with a convenient digital diary.
+- Encourage regular self-reflection.
+- Allow users to record their moods and mood intensity.
+- Help users organise and review their diary history.
+- Present mood information in an easy-to-understand visual format.
+- Build a foundation for future intelligent mood-analysis features.
+
+## 🔮 Future Scope
+
+The application can be extended with:
+
+- 🤖 AI/ML-based mood prediction
+- 🧠 Emotion analysis from diary content
+- 💡 Personalised daily prompts
+- 🔔 Reminders and notifications
+- 🔒 Two-factor authentication and stronger security
+- 📶 Offline access
+- 📤 Diary export and backup
+- 🎙️ Voice-based diary entries
+- 📊 More advanced mood analytics
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/bijoykhisa666/Personal_diary_with_mood_tracking.git
+cd Personal_diary_with_mood_tracking
+```
+
+### 2. Frontend setup
+
+```bash
+cd frontend-personal-diary-main
+npm install
+npm run dev
+```
+
+### 3. Backend setup
+
+Open another terminal:
+
+```bash
+cd personal-diary-main
+npm install
+npm start
+```
+
+> Make sure your environment variables, MongoDB connection, and Amazon S3 configuration are set according to the project's backend configuration.
+
+## 👨‍💻 Developer
+
+### Bijoy Khisa (Bablu)
+
+**B.Sc. in Computer Science & Engineering**
+
+Interested in **Software Development, Artificial Intelligence, Machine Learning, Deep Learning, and Data Analytics**.
+
+📍 Bangladesh
+
+## 📌 Academic Project
+
+This project was developed as an undergraduate academic/final-year project in Computer Science & Engineering.
+
+---
+
+⭐ If you find this project useful, feel free to explore the repository and give it a star.
 
 
