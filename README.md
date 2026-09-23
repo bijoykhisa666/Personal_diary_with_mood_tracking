@@ -1,6 +1,6 @@
 # Personal Diary with Mood Tracking
 
-A personal diary app for writing daily journal entries and tracking your mood over time.
+In today's fast-paced world, mental well-being has become increasingly important. Many people experience stress, anxiety, and emotional challenges but often lack a simple way to reflect on their feelings. The project report was developed to support emotional self-awareness by allowing users to record their daily experiences and manually track their moods. By reviewing past entries and mood patterns, users can better understand their emotions, recognize trends, and build healthier self-reflection habits. While the application is not a substitute for professional mental health care, it serves as a practical tool for promoting mindfulness and personal well-being.
 
 ## Features
 
