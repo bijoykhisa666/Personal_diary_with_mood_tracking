@@ -9,7 +9,7 @@
 [![MongoDB](https://img.shields.io/badge/MongoDB-NoSQL-47A248?logo=mongodb)](https://www.mongodb.com/)
 
 
-## ✨ Key Features
+##  Key Features
 
 - 🔐 User registration and authentication
 - 📝 Create, view, update, and delete diary entries
@@ -46,7 +46,7 @@
 - **Vercel**
 - **Render**
 
-## 🏗️ Architecture
+##  Architecture
 
 The application follows a client-server architecture:
 
@@ -70,7 +70,7 @@ The application follows a client-server architecture:
 └──────────────┘  └──────────────┘
 ```
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Personal_diary_with_mood_tracking/
@@ -95,7 +95,7 @@ Personal_diary_with_mood_tracking/
 └── README.md
 ```
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 The project was developed with the following objectives:
 
@@ -106,7 +106,7 @@ The project was developed with the following objectives:
 - Present mood information in an easy-to-understand visual format.
 - Build a foundation for future intelligent mood-analysis features.
 
-## 🔮 Future Scope
+##  Future Scope
 
 The application can be extended with:
 
@@ -120,7 +120,7 @@ The application can be extended with:
 - 🎙️ Voice-based diary entries
 - 📊 More advanced mood analytics
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
@@ -150,12 +150,9 @@ npm start
 
 
 
-## 📌 Academic Project
+##  Academic Project
 
 This project was developed as an undergraduate academic/final-year project in Computer Science & Engineering.
 
 ---
-
-⭐ If you find this project useful, feel free to explore the repository and give it a star.
-
 
