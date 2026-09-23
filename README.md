@@ -120,32 +120,7 @@ The application can be extended with:
 - 🎙️ Voice-based diary entries
 - 📊 More advanced mood analytics
 
-##  Getting Started
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/bijoykhisa666/Personal_diary_with_mood_tracking.git
-cd Personal_diary_with_mood_tracking
-```
-
-### 2. Frontend setup
-
-```bash
-cd frontend-personal-diary-main
-npm install
-npm run dev
-```
-
-### 3. Backend setup
-
-Open another terminal:
-
-```bash
-cd personal-diary-main
-npm install
-npm start
-```
 
 
 
