@@ -147,7 +147,6 @@ npm install
 npm start
 ```
 
-> Make sure your environment variables, MongoDB connection, and Amazon S3 configuration are set according to the project's backend configuration.
 
 
 
