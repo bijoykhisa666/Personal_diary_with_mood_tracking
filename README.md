@@ -1,4 +1,4 @@
-# 📔 Personal Diary with Mood Tracking
+#  Personal Diary with Mood Tracking
 
 > Personal Diary with Mood Tracking is a full-stack web application designed to help users record their daily experiences and manually track their moods. Users can create diary entries, select their mood and intensity, add tags, and review their previous entries and mood patterns. The application aims to encourage self-reflection, emotional awareness, and mindful journaling through a simple and organised digital diary.
 
@@ -11,17 +11,17 @@
 
 ##  Key Features
 
-- 🔐 User registration and authentication
-- 📝 Create, view, update, and delete diary entries
-- 😊 Manual mood tracking
-- 📊 Mood intensity scale from **1–10**
-- 🏷️ Tags for organising diary entries
-- 📅 Date and calendar-based diary management
-- 🔎 Search and filter functionality
-- 📈 Mood charts and visualisations
-- 🖼️ Media/photo upload support
-- 👤 User-specific diary data
-- 📱 Responsive user interface
+-  User registration and authentication
+-  Create, view, update, and delete diary entries
+-  Manual mood tracking
+-  Mood intensity scale from **1–10**
+-  Tags for organising diary entries
+-  Date and calendar-based diary management
+-  Search and filter functionality
+-  Mood charts and visualisations
+-  Media/photo upload support
+-  User-specific diary data
+-  Responsive user interface
 
 ##  Technology Stack
 
@@ -121,15 +121,15 @@ The project was developed with the following objectives:
 
 The application can be extended with:
 
-- 🤖 AI/ML-based mood prediction
-- 🧠 Emotion analysis from diary content
-- 💡 Personalised daily prompts
-- 🔔 Reminders and notifications
-- 🔒 Two-factor authentication and stronger security
-- 📶 Offline access
-- 📤 Diary export and backup
-- 🎙️ Voice-based diary entries
-- 📊 More advanced mood analytics
+-  AI/ML-based mood prediction
+-  Emotion analysis from diary content
+-  Personalised daily prompts
+-  Reminders and notifications
+-  Two-factor authentication and stronger security
+-  Offline access
+-  Diary export and backup
+-  Voice-based diary entries
+-  More advanced mood analytics
 
 
 
