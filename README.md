@@ -132,13 +132,3 @@ The application can be extended with:
 -  More advanced mood analytics
 
 
-
-
-
-
-##  Academic Project
-
-This project was developed as an undergraduate academic/final-year project in Computer Science & Engineering.
-
----
-
